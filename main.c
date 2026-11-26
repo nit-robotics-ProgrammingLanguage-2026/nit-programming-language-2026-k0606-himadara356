@@ -7,7 +7,7 @@ int main(void)
     double y = 0.0;
     double v = 0.0;
     double t;
-    scanf("%f", &ylimit);
+    scanf("%lf", &ylimit);
     if (ylimit <= 0)
     {
         printf("NG");
@@ -18,6 +18,6 @@ int main(void)
         v = g * t;
         y = g * t * t / 2;
     }
-    printf("%.3f", v);
+    printf("%.3lf", v);
     return 0;
 }
