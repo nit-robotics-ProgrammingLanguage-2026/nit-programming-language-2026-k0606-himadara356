@@ -18,6 +18,6 @@ int main(void)
         v = g * t;
         y = g * t * t / 2;
     }
-    printf("%.3f", v);
+    printf("%.3g", v);
     return 0;
 }
