@@ -13,11 +13,14 @@ int main(void)
         printf("NG");
         return 0;
     }
-    for (t = 0.0; y < ylimit; t += 0.1)
-    {
+    else
+    { 
+        for (t = 0.0; y < ylimit; t += 0.1)
+     {
         v = g * t;
         y = g * t * t / 2;
-    }
+     }
     printf("%.3lf", v);
+    }
     return 0;
 }
