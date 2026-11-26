@@ -2,12 +2,12 @@
 
 int main(void)
 {
-    float ylimit;
+    double ylimit;
     double g = 3.71;
     double y = 0.0;
     double v = 0.0;
     double t;
-    scanf("%g", &ylimit);
+    scanf("%f", &ylimit);
     if (ylimit <= 0)
     {
         printf("NG");
@@ -18,6 +18,6 @@ int main(void)
         v = g * t;
         y = g * t * t / 2;
     }
-    printf("%.3g", v);
+    printf("%.3f", v);
     return 0;
 }
