@@ -18,7 +18,6 @@ int main(void)
         v = g * t;
         y = g * t * t / 2;
      }
-    if (y > 0)
     {
     printf("%.3lf", v);
     }
